@@ -53,7 +53,7 @@ namespace Efectos
             {
                 if (waveOut.PlaybackState == PlaybackState.Playing)
                 {
-                    waveOut.Stop();
+                    waveOut.Stop(); 
                 }
                 waveOut.Init(reader);
                 waveOut.Play();
